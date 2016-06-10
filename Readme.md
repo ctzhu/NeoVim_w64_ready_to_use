@@ -26,4 +26,4 @@ Clone or unzip this repo to your harddrive. Add the `\bin` directory to your `PA
 
 Known Bugs:
 ----
-* Exiting QT-GUI, i.e., by a `:q` command, requires an additional keyboard or mouse event to the GUI windows to actually exit the GUI.
+* Exiting QT-GUI, i.e., by a `:q` command, requires an additional keyboard or mouse event to the GUI windows to actually exit the GUI. Therefore a workaround is to issue `:q<cr><cr>` instead of `:q<cr>` to exit the GUI.

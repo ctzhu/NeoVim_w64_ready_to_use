@@ -3,8 +3,8 @@ NeoVim ready to use 64bit windows collection
 
 What is it?
 ----
-**[NeoVim](https://neovim.io/)** is a project to rewrite Vim with a better code base.
-The repo simply provides a dump for a running copy of NeoVim binaries, settings and plugins for 64bit Windows. 
+**[NeoVim](https://neovim.io/)** is a project to rewrite Vim with a modern and better code base.
+This repo simply provides a dump for a running copy of NeoVim binaries, settings and plugins for 64bit Windows. 
 As TUI support for windows is not yet offered, **[neovim-qt](https://github.com/equalsraf/neovim-qt)** is arguably the easiest route of getting a workable UI.
 
 What is included?
@@ -19,3 +19,11 @@ What is included?
   - [monokai](https://github.com/sickill/vim-monokai)
   - [molokai](https://github.com/tomasr/molokai)
   - [jellybeans](https://github.com/nanotech/jellybeans.vim)
+  
+How to install?
+----
+Clone or unzip this repo to your harddrive. Add the `\bin` directory to your `PATH` environment variable. You should then be able to run the QT based GUI `nvim_qt.exe` from the `GUI` folder.
+
+Known Bugs:
+----
+* Exiting QT-GUI, i.e., by a `:q` command, requires an additional keyboard or mouse event to the GUI windows to actually exit the GUI.

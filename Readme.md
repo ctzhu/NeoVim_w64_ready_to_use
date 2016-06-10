@@ -1,4 +1,4 @@
-NeoVim ready to use 64bit windows collection
+NeoVim ready-to-use 64bit windows collection
 ====
 
 What is it?
